@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1> Testing on page</h1>
+    <h2>H2 testing</h2>
+    <h3>H3</h3>
+    <h4>h4</h4>
+    <p>This is text in a <br> paragraph format</p>
+
+
+    <div>
+        <div>
+            Inner Div 1
+        </div>
+        <div>
+            Inner Div 2
+        </div>
+    </div>
+    <div>
+        <div>
+            Inner Div 1
+        </div>
+        <div>
+            Inner Div 2
+        </div>
+    </div>
+
+
+    <div class="border-box">
+        <span>This is an example of padding and margin</span>
+    </div>
+    br>
+    <br>
+    <table class="border-box" width="75%" border="5px">
+        <thead>
+            <tr align="left">
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Street</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Postal Code</th>
+                <th>Major Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Guadalupe</td>
+                <td>Donoghue</td>
+                <td>8483 Adams St.</td>
+                <td>Elgin</td>
+                <td>IL</td>
+                <td>60120</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Raye</td>
+                <td>Selig</td>
+                <td>7731 Jockey Hollow Street</td>
+                <td>Somerset</td>
+                <td>NJ</td>
+                <td>08873</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vivien</td>
+                <td>Ragusa</td>
+                <td>35 W. Spring Lane</td>
+                <td>Vienna</td>
+                <td>VA</td>
+                <td>22180</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Georgette</td>
+                <td>Darcy</td>
+                <td>202A El Dorado St.</td>
+                <td>Rockaway</td>
+                <td>NJ</td>
+                <td>07866</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <label for="message""> Tell Me Everything</label> <br>
+        <textarea cols=" 50" rows="10"></textarea><br>
+            <input list="cars" />
+            <datalist id="cars">
+                <option value="BMW" />
+                <option value="Ford" />
+                <option value="Volvo" />
+                <option value="Skoda" />
+                <option value="Toyota" />
+            </datalist> <br>
+            <select name="country" id="country">
+                <optgroup label="Europe">
+                    <option value="UK">UK</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                </optgroup>
+
+                <optgroup label="North America">
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                </optgroup>
+            </select> <br>
+            <input name="submit" type="submit" value="save" />
+    </form>
+    <!-- LOGIN FORM-->
+    <div>
+        <form>
+            <h1>Login Page</h1>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password"><br>
+            <input type="submit" name="login" value="Login"><br>
+        </form>
+    </div> <br>
+
+    <!-- REGISTER PAGE-->
+    <div>
+        <form>
+            <h1>Register Page</h1>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name"><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name"><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password"><br>
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Your Password"><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" pattern="\d{2}-\d{2}-\d{4}"><br>
+            <label for="habits">Habits</label>
+            <input type="checkbox" id="habit1" name="habit1" value="Sports">
+            <label for="habit1">You like sports</label>
+            <input type="checkbox" id="habit2" name="habit2" value="Eating">
+            <label for="habit2">You like to eat</label>
+            <input type="checkbox" id="habit3" name="habit3" value="Sleeping">
+            <label for="habit3">You like to sleep</label><br>
+            <input type="submit" name="register" id="register" value="Register">
+        </form>
+    </div><br>
+    <div></div>
+    This is the footer.
+</body>
+
+</html>

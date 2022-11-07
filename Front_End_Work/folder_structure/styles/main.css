@@ -1,0 +1,49 @@
+@import url("../fonts/Oswald/static/Oswald-Regular.ttf");
+
+h1, a{
+    font-family: 'Oswald-Regular', cursive;
+}
+
+.img-container{
+    width: 1000px;
+    height: 640px;
+    margin: auto;
+    border: none;
+    background-color: aqua;
+    background-image: url("../images/vader.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.img-container img{
+    /*width: 100%;
+    height: 100%;
+    border: 2px solid lightblue;
+    border-radius: 10px 10px 200px 10px;
+    box-shadow: 10px 15px 10px;*/
+    display: none;
+}
+
+div{
+    text-align: center;
+    border: 2px dashed red;
+    width: 800px;
+    height: 400px;
+}
+
+#div1{
+    background: linear-gradient( 70deg, blue, pink);
+    float: left;
+}
+
+#div2{
+    background-color: antiquewhite;
+    float: right;
+}
+
+#div3{
+    background-color: blueviolet;
+    clear: both;
+}
